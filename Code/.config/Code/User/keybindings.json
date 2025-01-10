@@ -3,5 +3,10 @@
         "key": "alt+a",
         "command": "workbench.action.chat.openAgent",
         "when": "!chatSetupHidden"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "workbench.action.quickOpen",
+        "when": "vim.mode == 'Normal' || vim.mode == 'Visual' || vim.mode == 'VisualLine' || vim.mode == 'VisualBlock'"
     }
 ]
