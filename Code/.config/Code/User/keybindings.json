@@ -8,5 +8,9 @@
         "key": "ctrl+p",
         "command": "workbench.action.quickOpen",
         "when": "vim.mode == 'Normal' || vim.mode == 'Visual' || vim.mode == 'VisualLine' || vim.mode == 'VisualBlock'"
+    },
+    {
+        "key": "ctrl+alt+v",
+        "command": "toggleVim"
     }
 ]
