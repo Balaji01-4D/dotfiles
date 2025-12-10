@@ -21,9 +21,7 @@
     "git.decorations.enabled": false,
     "window.zoomLevel": 0.4,
     "editor.fontSize": 13.5,
-
     "window.title": " ",
-
     "editor.hideCursorInOverviewRuler": true,
     "editor.overviewRulerBorder": false,
     "editor.scrollbar.horizontal": "hidden",
@@ -38,39 +36,62 @@
     // "editor.glyphMargin": false,
     // "editor.lineNumbers": "relative",
     "editor.showFoldingControls": "never",
-
     "window.menuBarVisibility": "toggle",
     "workbench.layoutControl.type": "menu",
     "workbench.layoutControl.enabled": false,
-
     "editor.colorDecorators": false,
     "editor.links": false,
     "editor.parameterHints.enabled": false,
-
     "files.trimFinalNewlines": true,
     "files.insertFinalNewline": true,
     "scm.diffDecorations": "none",
     "vim.leader": "<Space>",
-    "vim.hlsearch": true, 
+    "vim.hlsearch": true,
     "vim.insertModeKeyBindings": [
         {
-            "before": ["j", "k"],
-            "after": ["<Esc>"]
-        },
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
     ],
-
-     "vim.visualModeKeyBindings": [
-        { "before": ["<"], "commands": ["editor.action.outdentLines"] },
-         { "before": [">"], "commands": ["editor.action.indentLines"] },
-        { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] }
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "c"
+            ],
+            "commands": [
+                "editor.action.commentLine"
+            ]
+        }
     ],
     "go.formatTool": "gofmt",
     "[go]": {
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
-            "source.organizeImports":"always"
+            "source.organizeImports": "always"
         }
     },
     "go.toolsManagement.autoUpdate": true,
-    "go.lintTool": "golangci-lint",
+    "go.lintTool": "golangci-lint"
 }
