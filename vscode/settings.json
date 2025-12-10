@@ -1,0 +1,135 @@
+{
+    "workbench.tips.enabled": false,
+    "git.confirmSync": false,
+    "editor.fontFamily": "'JetBrainsMono Nerd, 'monospace', monospace",
+    "files.autoSave": "afterDelay",
+    "telemetry.telemetryLevel": "off",
+    "git.openRepositoryInParentFolders": "never",
+    "telemetry.feedback.enabled": false,
+    "security.workspace.trust.enabled": true,
+    "editor.minimap.enabled": false,
+    "extensions.autoCheckUpdates": false,
+    "extensions.autoUpdate": false,
+    "update.mode": "manual",
+    "editor.showUnused": false,
+    "workbench.editor.enablePreview": false,
+    "terminal.integrated.inheritEnv": false,
+    "terminal.integrated.showLinkHover": false,
+    "explorer.decorations.badges": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.tree.renderIndentGuides": "onHover",
+    "workbench.activityBar.location": "hidden",
+    "workbench.statusBar.visible": false,
+    "workbench.editor.showTabs": "single",
+    "workbench.sideBar.location": "right",
+    "workbench.layoutControl.enabled": false,
+    "workbench.layoutControl.type": "menu",
+    "workbench.startupEditor": "none",
+    "window.menuBarVisibility": "toggle",
+    "workbench.tree.indent": 16,
+    "editor.fontSize": 15,
+    "window.zoomLevel": 0.4,
+    "workbench.settings.applyToAllProfiles": [],
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "go": true,
+        "python": false,
+        "log": false
+    },
+    "extensions.ignoreRecommendations": true,
+    "explorer.decorations.colors": false,
+    "workbench.colorTheme": "Monokai",
+    "editor.autoClosingBrackets": "always",
+    "gopls": {
+        "ui.semanticTokens": true,
+        "ui.completion.usePlaceholders": true
+    },
+    "editor.autoClosingQuotes": "always",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "go.formatTool": "gofmt",
+    "go.toolsManagement.autoUpdate": true,
+    "go.lintTool": "golangci-lint",
+    "[go]": {
+        "editor.insertSpaces": false,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "always"
+        }
+    },
+    "animations.Install-Method": "Apc Customize UI++",
+    "workbench.editor.empty.hint": "hidden",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "git.enabled": false,
+    "chat.editing.confirmEditRequestRemoval": false,
+    "window.title": " ",
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.overviewRulerBorder": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "auto",
+    "editor.bracketPairColorization.enabled": false,
+    "editor.guides.highlightActiveBracketPair": false,
+    "editor.guides.bracketPairsHorizontal": false,
+    "editor.guides.indentation": false,
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.renderLineHighlight": "none",
+    // "editor.glyphMargin": false,
+    // "editor.lineNumbers": "off",
+    "editor.showFoldingControls": "never",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "c"
+            ],
+            "commands": [
+                "editor.action.commentLine"
+            ]
+        }
+    ],
+    "git.decorations.enabled": false,
+    "git.blame.statusBarItem.enabled": false,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true
+    },
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    "scm.diffDecorations": "none",
+    "github.copilot.selectedCompletionModel": ""
+}
