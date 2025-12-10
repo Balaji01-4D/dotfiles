@@ -1,0 +1,76 @@
+{
+    "workbench.colorTheme": "Aura Dracula Spirit (Soft)",
+    "workbench.activityBar.location": "hidden",
+    "workbench.editor.showTabs": "single",
+    "workbench.statusBar.visible": false,
+    "files.autoSave": "afterDelay",
+    "git.confirmSync": false,
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "workbench.sideBar.location": "right",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.tree.renderIndentGuides": "onHover",
+    "workbench.tree.indent": 16,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "explorer.decorations.badges": false,
+    "git.decorations.enabled": false,
+    "window.zoomLevel": 0.4,
+    "editor.fontSize": 13.5,
+
+    "window.title": " ",
+
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.overviewRulerBorder": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.bracketPairColorization.enabled": false,
+    "editor.guides.highlightActiveBracketPair": false,
+    "editor.guides.bracketPairsHorizontal": false,
+    "editor.guides.indentation": false,
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.renderLineHighlight": "none",
+    // "editor.glyphMargin": false,
+    // "editor.lineNumbers": "relative",
+    "editor.showFoldingControls": "never",
+
+    "window.menuBarVisibility": "toggle",
+    "workbench.layoutControl.type": "menu",
+    "workbench.layoutControl.enabled": false,
+
+    "editor.colorDecorators": false,
+    "editor.links": false,
+    "editor.parameterHints.enabled": false,
+
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    "scm.diffDecorations": "none",
+    "vim.leader": "<Space>",
+    "vim.hlsearch": true, 
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        },
+    ],
+
+     "vim.visualModeKeyBindings": [
+        { "before": ["<"], "commands": ["editor.action.outdentLines"] },
+         { "before": [">"], "commands": ["editor.action.indentLines"] },
+        { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] }
+    ],
+    "go.formatTool": "gofmt",
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports":"always"
+        }
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "go.lintTool": "golangci-lint",
+}
