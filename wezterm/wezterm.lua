@@ -9,7 +9,7 @@ return {
 	-- color_scheme = 'termnial.sexy',
 	color_scheme = 'Catppuccin Mocha',
 	enable_tab_bar = false,
-	font_size = 16.0,
+	font_size = 15.0,
 	font = wezterm.font("JetBrainsMono Nerd Font", {weight="Light", stretch="Normal", style="Normal"}),
 	-- macos_window_background_blur = 40,
 -- 	macos_window_background_blur = 30,
@@ -31,17 +31,11 @@ return {
 			mods = 'CTRL',
 			action = wezterm.action.ToggleFullScreen,
 		},
-		{
-			key = '/',
-			mods = 'CTRL',
-			action = wezterm.action.SendString "clear\n", 
-		},
-		{
-			key = '\'',
-			mods = 'CTRL',
-			action = wezterm.action.ClearScrollback 'ScrollbackAndViewport',
-		},
-
+        {
+            key = 'F1',
+            mods = "NONE",
+            action = wezterm.action.ActivateCommandPalette,
+        }
 	},
 	mouse_bindings = {
 	  -- Ctrl-click will open the link under the mouse cursor
