@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Aura Dracula Spirit (Soft)",
+    "workbench.colorTheme": "Monokai",
     "workbench.activityBar.location": "hidden",
     "workbench.editor.showTabs": "single",
     "workbench.statusBar.visible": false,
@@ -25,7 +25,7 @@
     "editor.hideCursorInOverviewRuler": true,
     "editor.overviewRulerBorder": false,
     "editor.scrollbar.horizontal": "hidden",
-    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.vertical": "auto",
     "editor.bracketPairColorization.enabled": false,
     "editor.guides.highlightActiveBracketPair": false,
     "editor.guides.bracketPairsHorizontal": false,
@@ -93,5 +93,5 @@
         }
     },
     "go.toolsManagement.autoUpdate": true,
-    "go.lintTool": "golangci-lint"
+    "git.openRepositoryInParentFolders": "never"
 }
