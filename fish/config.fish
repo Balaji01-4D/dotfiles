@@ -1,4 +1,3 @@
-
 set -U fish_greeting ""
 
 if status is-interactive
@@ -10,6 +9,8 @@ if status is-interactive
     alias ll="eza -l --icons --group-directories-first"
     alias la="eza -la --icons --group-directories-first"
     alias cat="bat --paging=never"
+
+    export EDITOR="nvim"
 
 end
 
