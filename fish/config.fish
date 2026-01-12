@@ -9,6 +9,7 @@ if status is-interactive
     alias ll="eza -l --icons --group-directories-first"
     alias la="eza -la --icons --group-directories-first"
     alias cat="bat --paging=never"
+    alias v="nvim"
 
     export EDITOR="nvim"
 
