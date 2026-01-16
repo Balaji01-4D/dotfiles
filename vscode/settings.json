@@ -47,13 +47,11 @@
     "editor.autoClosingBrackets": "always",
     "gopls": {
         "ui.semanticTokens": true,
-        "ui.completion.usePlaceholders": true
     },
     "editor.autoClosingQuotes": "always",
     "github.copilot.nextEditSuggestions.enabled": true,
     "go.formatTool": "gofmt",
     "go.toolsManagement.autoUpdate": true,
-    "go.lintTool": "golangci-lint",
     "[go]": {
         "editor.insertSpaces": false,
         "editor.formatOnSave": true,

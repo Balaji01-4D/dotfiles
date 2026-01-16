@@ -43,7 +43,7 @@
     "editor.links": false,
     "editor.parameterHints.enabled": false,
     "files.trimFinalNewlines": true,
-    "files.insertFinalNewline": true,
+    //"files.insertFinalNewline": true,
     "scm.diffDecorations": "none",
     "vim.leader": "<Space>",
     "vim.hlsearch": true,
