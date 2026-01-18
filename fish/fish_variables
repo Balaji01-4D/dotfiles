@@ -2,4 +2,4 @@
 # VERSION: 3.0
 SETUVAR __fish_initialized:4300
 SETUVAR fish_greeting:
-SETUVAR fish_user_paths:/home/balaji/go/bin
+SETUVAR fish_user_paths:/home/balaji/\x2elocal/bin\x1e/home/balaji/go/bin

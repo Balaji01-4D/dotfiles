@@ -1,7 +1,7 @@
 set -U fish_greeting ""
 
 if status is-interactive
-    oh-my-posh init fish --config ~/.oh-my-posh/themes/catppuccin_frappe.omp.json | source
+    oh-my-posh init fish --config ~/.config/oh-my-posh/themes/catppuccin_frappe.omp.json | source
     zoxide init fish | source
     alias cd='z'
     alias tree='eza --tree --icons'

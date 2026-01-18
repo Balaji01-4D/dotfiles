@@ -5,9 +5,6 @@ wezterm.on('format-window-title', function(tab, pane, tabs, panes, config)
 end)
 
 return {
-    window_decorations = "INTEGRATED_BUTTONS|RESIZE",
-    integrated_title_buttons = { 'Maximize', 'Close' },
-    integrated_title_button_style = "Windows",
     window_padding = {
         left = 0,
         right = 0,
@@ -17,8 +14,7 @@ return {
 	adjust_window_size_when_changing_font_size = false,
 	-- color_scheme = 'termnial.sexy',
 	color_scheme = 'Catppuccin Mocha',
-	enable_tab_bar = true,
-    use_fancy_tab_bar = false,
+	enable_tab_bar = false,
 	font_size = 15.0,
 	font = wezterm.font("JetBrainsMono Nerd Font", {weight="Light", stretch="Normal", style="Normal"}),
 	-- macos_window_background_blur = 40,
