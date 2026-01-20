@@ -6,10 +6,10 @@ end)
 
 return {
     window_padding = {
-        left = 0,
-        right = 0,
-        top = 1,
-        bottom = 0,
+        left = 8,
+        right = 8,
+        top = 8,
+        bottom = 8,
     },
 	adjust_window_size_when_changing_font_size = false,
 	-- color_scheme = 'termnial.sexy',
