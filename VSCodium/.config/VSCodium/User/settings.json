@@ -20,7 +20,7 @@
     "explorer.decorations.badges": false,
     "git.decorations.enabled": false,
     "window.zoomLevel": 0.4,
-    "editor.fontSize": 13.5,
+    "editor.fontSize": 14.5,
     "window.title": " ",
     "editor.hideCursorInOverviewRuler": true,
     "editor.overviewRulerBorder": false,
@@ -93,5 +93,6 @@
         }
     },
     "go.toolsManagement.autoUpdate": true,
-    "git.openRepositoryInParentFolders": "never"
+    "git.openRepositoryInParentFolders": "never",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', monospace"
 }
