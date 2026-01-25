@@ -48,7 +48,7 @@ gaps inner 4
 gaps outer 4
 smart_gaps on
 smart_borders on
-hide_edge_borders both
+hide_edge_borders smart
 default_border pixel 0
 default_floating_border pixel 0
 
