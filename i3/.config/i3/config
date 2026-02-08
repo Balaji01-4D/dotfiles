@@ -59,6 +59,7 @@ bindsym $mod+Next exec brightnessctl set 10%-
 bindsym $mod+Shift+Prior exec pamixer -i 5
 bindsym $mod+Shift+Next exec pamixer -d 5
 
+bindsym Shift+F10 exec killall polybar
 bindsym $mod+F10 exec ~/scripts/rofi-wifi-menu.sh
 
 bindsym Print exec --no-startup-id flameshot gui
