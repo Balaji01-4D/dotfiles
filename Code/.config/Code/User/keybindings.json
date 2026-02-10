@@ -12,5 +12,10 @@
     {
         "key": "ctrl+alt+v",
         "command": "toggleVim"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "actions.find",
+        "when": "vim.mode == 'Normal' || vim.mode == 'Visual' || vim.mode == 'VisualLine' || vim.mode == 'VisualBlock'"
     }
 ]
