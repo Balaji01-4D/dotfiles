@@ -38,7 +38,7 @@
         "markdown": false,
         "scminput": false,
         "go": true,
-        "python": false,
+        "python": true,
         "log": false
     },
     "extensions.ignoreRecommendations": true,
