@@ -46,3 +46,13 @@ vim.lsp.config.pyright = {
   },
 }
 vim.lsp.enable("pyright")
+
+vim.lsp.config.jdtls = {
+  cmd = { "jdtls" },
+  filetypes = { "java" },
+  root_markers = { ".git", "pom.xml", "build.gradle" },
+  on_attach = on_attach,
+  on_init = on_init,
+  capabilities = capabilities,
+}
+vim.lsp.enable("jdtls")

@@ -19,18 +19,11 @@ return {
       ensure_installed = {
         "lua-language-server", "stylua",
         "gopls", "pyright", 
-        "black", "isort", "pylint", "debugpy",
-        "gofumpt", "goimports-reviser", "golines", "golangci-lint", "delve",
+        "black", "isort", "debugpy",
+        "gofumpt", "goimports-reviser", "golines", "delve",
+        "jdtls", "java-debug-adapter", "java-test",
       },
     },
-  },
-
-  {
-    "mfussenegger/nvim-lint",
-    event = { "BufReadPre", "BufNewFile" },
-    config = function()
-      require "configs.lint"
-    end,
   },
 
   {
@@ -69,7 +62,7 @@ return {
     opts = {
       ensure_installed = {
         "vim", "lua", "vimdoc",
-        "python", "go"
+        "python", "go", "java"
       },
     },
   },
